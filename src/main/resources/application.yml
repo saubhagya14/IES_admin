@@ -1,0 +1,29 @@
+server:
+  port: 1200
+  
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: patrasaubhagya146@gmail.com
+    password: pvnq ccjq nwmv ucvw
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+          auth: true
+          
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql=true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/IES
+
